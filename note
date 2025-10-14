@@ -1,0 +1,95 @@
+MDN- Mozilla Development Network
+href - Hyper reference attribute
+When you press the exclamation mark at the beginning of an HTML file and enter, the boiler template is inserted. Example below;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+WHAT IS AN ATTRIBUTE?
+
+In HTML, an attribute provides additional information about an HTML element. Attributes are always specified within the opening tag of an HTML element and typically come in name/value pairs.
+
+Here's a breakdown of what attributes mean in HTML: 
+
+Enhance Elements: Attributes modify the default behavior or appearance of an HTML element. For example, the src attribute in an <img> tag specifies the image file to display, and the href attribute in an <a> tag specifies the URL for the link.
+
+Provide Information: They offer more details about an element. The alt attribute for an <img> tag provides alternative text for screen readers or when the image cannot be displayed.
+
+Name/Value Pairs: Attributes are typically written as name="value". The name identifies the characteristic being defined (e.g., class, id, style), and the value provides the specific setting for that characteristic (e.g., "my-class", "unique-id", "color: blue;").
+
+Placement: Attributes are placed within the opening tag of an HTML element, separated from the tag name and other attributes by spaces.
+
+Examples:
+href attribute: Specifies the URL for a hyperlink.
+
+
+
+
+
+
+
+CSS - Cascading Style Sheet
+We have 2 types; Inline CSS, External CSS and Internal CSS
+
+
+
+Inline is within the lines of various elememts in HTML code e.g.
+<h1 style="color: purple; background-color: beige;">The Real John</h1>
+
+
+
+Internal CSS ia also within the HTML code but in the head section or inside the head tag of the code e.g.
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Real John</title>
+
+
+
+    <style>
+
+        /*1. Tag Name*/
+        h1{
+            color: rebeccapurple;
+            background-color: rgb(101, 255, 255);
+            height: 15;
+            width: 15;
+        }
+
+        /*2. Class Name*/
+        .name{
+            color: yellow;
+            background-color: tomato;
+        }
+
+            /*3. ID Name*/
+        #heading{
+            color: black;
+            background-color: rgb(255, 255, 255);
+        }
+        
+    </style>
+
+
+
+</head>
+
+
+
+We have what we call Selector Specificity; The higher the Selector Specificity
