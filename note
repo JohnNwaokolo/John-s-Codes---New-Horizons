@@ -93,3 +93,5 @@ Internal CSS ia also within the HTML code but in the head section or inside the 
 
 
 We have what we call Selector Specificity; The higher the Selector Specificity
+
+top, right, bottom, left(clockwise direction) for margin and padding measurements

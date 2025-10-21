@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+
+.navigation {
+    height: 200px;
+    background-color: aqua;
+    margin-top: 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: ;
+}
+
+.nav-logo-section{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 0px;
+    flex: 2;
+}
+
+.nav-link-section{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    flex: 3;
+}
+
+.nav-button-section {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    flex: 5;
+}
